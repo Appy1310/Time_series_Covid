@@ -161,6 +161,6 @@ if __name__ == "__main__":
     plot_timeseries(case_input, country_input)    
     case = input('choose between confirmed, recovered, Deaths, new_deaths, new_cases: ')
     country = input('Give me a name of a Country, you would like to check Covid-19 analysis: ')
-    starting_date = input('Give me a starting date in the format 2020-m-d: ')
-    ending_date = input('Give me a end date in the format 2020-m-d: ')
+    starting_date = input('Give me a starting date in the format 2020-month-date: ')
+    ending_date = input('Give me a end date in the format 2020-month-date: ')
     plot_prediction(case, country, starting_date, ending_date)
