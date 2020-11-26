@@ -37,7 +37,7 @@ df = pd.read_csv('./data/countries-aggregated.csv')
 
 
 df = df.dropna()
-#df
+# df
 
 
 # In[5]:
