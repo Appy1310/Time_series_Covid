@@ -5,23 +5,25 @@
 
 
 import warnings
-from statsmodels.tsa.arima_model import ARIMA
-from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
-from statsmodels.tsa.stattools import adfuller, acf, pacf, arma_order_select_ic
-import statsmodels.api as sm
+#from statsmodels.tsa.arima_model import ARIMA
+#from statsmodels.graphics.tsaplots import plot_acf, plot_pacf
+#from statsmodels.tsa.stattools import adfuller, acf, pacf, arma_order_select_ic
+#import statsmodels.api as sm
+from datetime import datetime
+
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import numpy as np
-import sys
+#import sys
 
-from pmdarima import AutoARIMA
+#from pmdarima import AutoARIMA
 import pmdarima as pm
 
 import plotly.express as px
 
 #from datetime import timedelta
-from datetime import date, timedelta, datetime
+#from datetime import date, timedelta, datetime
 
 
 sns.set()
@@ -35,7 +37,7 @@ df = pd.read_csv('./data/countries-aggregated.csv')
 
 
 df = df.dropna()
-df
+#df
 
 
 # In[5]:
