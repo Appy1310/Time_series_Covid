@@ -1,3 +1,5 @@
+![Format python code](https://github.com/Appy1310/Time_series_Covid/workflows/Format%20python%20code/badge.svg)
+
 ## Time series analysis with covid data
 
 The first objective of this repository is to collect daily COVID-19 Data from the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.
